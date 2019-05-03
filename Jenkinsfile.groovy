@@ -4,7 +4,7 @@ node{
    
    
     stage("Pull Repo"){
-        git 'git git@github.com:daudmu21/cool_website.git'
+        git 'git@github.com:daudmu21/cool_website.git'
        
     }
     stage("webserver Install"){
